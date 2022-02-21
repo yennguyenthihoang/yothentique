@@ -1,0 +1,10 @@
+Develop 1 web application dùng backend vendure, frontend ReactJS cùng Gatsby để SEO
+1. Develope backend với https://www.vendure.io , làm sao deploy trực tiếp nó lên cloud.google?
+2. Tạo web fontend Gatsby 
+3. Dùng https://builder.io/content để quản lí nội dung và cấu trúc của page, từng section của page.
+4. Giao tiếp giữa các model bằng GraphQL
+
+1. https://www.vendure.io en backend pour la gestion du e-commerce, déployé sur https://cloud.google.com/run?hl=fr (CI/CD directement branché sur mon dépot Github)
+2. React et GatsbyJS pour le site accessible aux clients. L'app est en React et Gatsby optimise et construit un site statique vraiment très rapidement. (Top pour performances et SEO), il peut également héberger le site statique.
+3. https://builder.io/content pour la gestion des contenus et la structuration des pages et sections du site.
+4. Cette stack est complètement headless, toute les communications se font avec GraphQL. Et les liaisons se font assez facilement via les plugins Gatsby.
